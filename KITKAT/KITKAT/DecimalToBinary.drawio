@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
+  <diagram name="Page-1" id="N5ZKVZmifZi4qQF7ZM7j">
+    <mxGraphModel dx="784" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tz-QCBjkHgT71a6kPEdk-3" edge="1" parent="1" source="tz-QCBjkHgT71a6kPEdk-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tz-QCBjkHgT71a6kPEdk-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tz-QCBjkHgT71a6kPEdk-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Start" vertex="1">
+          <mxGeometry height="80" width="120" x="320" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tz-QCBjkHgT71a6kPEdk-5" edge="1" parent="1" source="tz-QCBjkHgT71a6kPEdk-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tz-QCBjkHgT71a6kPEdk-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tz-QCBjkHgT71a6kPEdk-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;nbsp;Console.WriteLine(&quot;Decimal to binary&quot;);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Console.WriteLine(&quot;sisesta number: &quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp;int num = Convert.ToInt32(Console.ReadLine());&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="250" x="255" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tz-QCBjkHgT71a6kPEdk-7" edge="1" parent="1" source="tz-QCBjkHgT71a6kPEdk-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tz-QCBjkHgT71a6kPEdk-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tz-QCBjkHgT71a6kPEdk-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="string result = string.Empty;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="tz-QCBjkHgT71a6kPEdk-9" edge="1" parent="1" source="tz-QCBjkHgT71a6kPEdk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tz-QCBjkHgT71a6kPEdk-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tz-QCBjkHgT71a6kPEdk-16" edge="1" parent="1" source="tz-QCBjkHgT71a6kPEdk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tz-QCBjkHgT71a6kPEdk-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tz-QCBjkHgT71a6kPEdk-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="for (int i = 0; num &amp;gt; 0; i++)" vertex="1">
+          <mxGeometry height="100" width="200" x="280" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="tz-QCBjkHgT71a6kPEdk-15" edge="1" parent="1" source="tz-QCBjkHgT71a6kPEdk-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tz-QCBjkHgT71a6kPEdk-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="600" />
+              <mxPoint x="260" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tz-QCBjkHgT71a6kPEdk-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;shape=label;" value="&lt;div&gt;&amp;nbsp;result = num % 2 + result;&lt;/div&gt;&lt;div&gt;&amp;nbsp;num = num / 2;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="175" x="292.5" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="tz-QCBjkHgT71a6kPEdk-14" edge="1" parent="1" source="tz-QCBjkHgT71a6kPEdk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tz-QCBjkHgT71a6kPEdk-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tz-QCBjkHgT71a6kPEdk-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Console.WriteLine($&quot;Binary Number: {result}&quot;);&lt;/div&gt;&lt;div&gt;Console.ReadLine();&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="520" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="tz-QCBjkHgT71a6kPEdk-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="end" vertex="1">
+          <mxGeometry height="80" width="120" x="740" y="430" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
