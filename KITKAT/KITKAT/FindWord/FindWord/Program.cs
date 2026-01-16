@@ -23,6 +23,8 @@ namespace FindWord
 
             try
             {
+
+                //faili asukoht
                 using (StreamReader sr = new StreamReader("C:/Users/opilane/Desktop/Lemmad.txt", Encoding.Default))
                 {
                     int lineNumber = 0;
